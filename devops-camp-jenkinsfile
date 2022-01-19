@@ -16,7 +16,7 @@ pipeline {
         }
         stage('Database docker build') {
             steps {
-		sh 'kubectl'
+		sh 'git clone https;//github.com/samuel-ybarra/afs-labs-studen.git'
 		//echo "Building database image"
             }
         }
