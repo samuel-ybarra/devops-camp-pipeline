@@ -16,7 +16,8 @@ pipeline {
         }
         stage('Database docker build') {
             steps {
-                echo "Building database image"
+                kubectl
+		//echo "Building database image"
             }
         }
         stage('Test'){
